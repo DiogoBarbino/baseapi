@@ -15,24 +15,23 @@ Espero que seja util!!!
 -Abra seu terminal favorito e escolha a pasta onde quer instalar o projeto. 
 -Clone o repositório
 
-git clone https://github.com/DiogoBarbino/baseapi.git
+```git clone https://github.com/DiogoBarbino/baseapi.git```
 
--Renomei o arquivo [.env.example] para apenas [.env] e coloque as suas configurações.
+-Renomei o arquivo `.env.example` para apenas `.env` e coloque as suas configurações.
 
 -Instale as dependências com os comandos:
 
 ```Composer install```
-
-+```npm install```
+```npm install```
 ```npm run dev```
 
--Gere a chave do aplicavo com o comando php artisan key:generate
+-Gere a chave do aplicavo com o comando ```php artisan key:generate```
 
 -Nesta etapa é necessário que o banco SQL já esteja ativo e corretamente configurado
 
--Execute as migrações do banco de dados php artisan migrate
+-Execute as migrações do banco de dados ```php artisan migrate```
 
--Execute o projeto php artisan serve
+-Execute o projeto ```php artisan serve```
 
 -Agora você pode entrar no sistema pelo http://localhost:8000
 
