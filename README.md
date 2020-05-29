@@ -20,6 +20,7 @@ Espero que seja util!!!
 -Renomei o arquivo `.env.example` para apenas `.env` e coloque as suas configurações.
 
 -Instale as dependências com os comandos:
+
 ```Composer install```
 ```npm install```
 ```npm run dev```
