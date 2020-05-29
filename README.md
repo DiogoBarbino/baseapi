@@ -20,14 +20,11 @@ git clone https://github.com/DiogoBarbino/baseapi.git
 -Renomei o arquivo [.env.example] para apenas [.env] e coloque as suas configurações.
 
 -Instale as dependências com os comandos:
-#Markdown
 
-...
-Composer install
-...
+```Composer install```
 
---npm install
---npm run dev
+```npm install```
+```npm run dev```
 
 -Gere a chave do aplicavo com o comando php artisan key:generate
 
