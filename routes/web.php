@@ -20,3 +20,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('acl/user','Acl\UserController');
+Route::get('acl/user/{user}/roles','Acl\UserController@roles')->name('user.roles');
+Route::put('acl/user/{user}/roles/sync','Acl\UserController@rolesSync')->name('user.rolesSync');
+
+Route::resource('acl/role','Acl\RoleController');
+Route::get('acl/role/{role}/permissions','Acl\RoleController@permissions')->name('role.permissions');
+Route::put('acl/role/{role}/permissions/sync','Acl\RoleController@permissionsSync')->name('role.permissionsSync');
+
+Route::resource('acl/permission','Acl\PermissionController');
