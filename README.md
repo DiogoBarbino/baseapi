@@ -24,4 +24,15 @@ git clone https://github.com/DiogoBarbino/baseapi.git
 --npm install
 --npm run dev
 
+-Gere a chave do aplicavo com o comando php artisan key:generate
+
+-Nesta etapa é necessário que o banco SQL já esteja ativo e corretamente configurado
+
+-Execute as migrações do banco de dados php artisan migrate
+
+-Execute o projeto php artisan serve
+
+-Agora você pode entrar no sistema pelo http://localhost:8000
+
+
 ...Continua
