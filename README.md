@@ -23,7 +23,7 @@ git clone https://github.com/DiogoBarbino/baseapi.git
 
 ```Composer install```
 
-```npm install```
++```npm install```
 ```npm run dev```
 
 -Gere a chave do aplicavo com o comando php artisan key:generate
